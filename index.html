@@ -9,10 +9,11 @@
 
   <h1>Smart Expense Tracker 💰</h1>
 
+  <!-- Add Expense Form -->
   <form id="expenseForm">
     <input type="text" id="title" placeholder="Expense title" required>
     <input type="number" id="amount" placeholder="Amount (₹)" required>
-    
+
     <select id="category" required>
       <option value="">Select category</option>
       <option>Food</option>
@@ -26,11 +27,31 @@
     <button type="submit">Add Expense</button>
   </form>
 
+  <!-- Summary -->
   <h2>Total: ₹<span id="totalAmount">0</span></h2>
 
+  <!-- Filters -->
+  <div class="controls">
+    <select id="filterCategory">
+      <option value="">All categories</option>
+      <option>Food</option>
+      <option>Transport</option>
+      <option>Shopping</option>
+      <option>Bills</option>
+      <option>Other</option>
+    </select>
+
+    <select id="sortBy">
+      <option value="newest">Sort: Newest first</option>
+      <option value="oldest">Sort: Oldest first</option>
+      <option value="amount_desc">Amount: High → Low</option>
+      <option value="amount_asc">Amount: Low → High</option>
+    </select>
+  </div>
+
+  <!-- List -->
   <ul id="expenseList"></ul>
 
   <script src="app.js"></script>
 </body>
 </html>
-
