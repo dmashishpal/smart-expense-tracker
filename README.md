@@ -30,3 +30,29 @@ This app runs completely in the browser and saves data automatically using local
 
 ## 📂 Planned Folder Structure
 
+
+---
+
+## 🧱 Status
+
+- [x] Setup project files  
+- [ ] Add form to create expenses  
+- [ ] Display expenses dynamically  
+- [ ] Store and load from localStorage  
+- [ ] Add filters  
+- [ ] Add charts (later phase)
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Add editing feature
+- [ ] Export data as CSV
+- [ ] Add dark mode
+- [ ] Deploy via GitHub Pages
+
+---
+
+## 👤 Author
+
+Ashish — learning frontend development one project at a time.
